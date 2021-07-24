@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.lista{
+    background: #666;
+}
+.notas{
+    font-weight: 900;
+}
+.modal-footer{
+    justify-content: space-between;
+}
