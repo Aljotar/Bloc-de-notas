@@ -1,18 +1,53 @@
-body{
-    background-color: rgb(255, 255, 255);
-    font-family: sans-serif;
+body {
+    background-image: url(./imagenes/43035.jpg);
+    background-size: cover;
+    font-family: monospace;
 }
 
-.lista{
-    background: #666;
+.lista {
+    color: #111;
 }
-.notas{
+.notas {
+    font-size: 30px;
     font-weight: 900;
+    box-shadow: 1px 1px 5px rgb(214, 123, 63);
 }
-.modal-footer{
+.modal-footer {
     justify-content: space-between;
     border: none;
 }
-.modal-body{
+.modal-body {
+    border: none;
+    background: rgb(4, 4, 4);
+    background: linear-gradient(
+        0deg,
+        rgb(214, 123, 63) 5%,
+        rgb(245, 135, 71) 7%,
+        rgba(255, 255, 255, 1) 22%,
+        rgba(255, 255, 255, 1) 78%,
+        rgb(245, 172, 89) 93%
+    );
+}
+.listado {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.contenedor {
+    border: 1px solid rgb(238, 180, 109);
+    border-radius: 10px / 50px;
+    box-shadow: 1px 1px 5px black;
+    background: rgba(0, 0, 0, 0.4);
+}
+.card-body{
     border: none;
 }
+.modal-content{
+    box-shadow: 1px 1px 5px black;
+}
+#boton_titulo{
+    box-shadow: 1px 1px 5px;
+}
+.box{
+    box-shadow: 1px 1px 5px;
+}
+

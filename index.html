@@ -15,15 +15,13 @@
 </head>
 
 <body>
-
-    <div class="container lista mt-5 text-center">
-        <div class="row">
-            <div class="col-6 text-white">
+    <div class="lista mt-5 text-center">
+        <div class="row justify-content-between m-3">
+            <div class="col-3">
                 <p class="notas mt-3">Mis Notas</p>
-
             </div>
-            <div class="col-6">
-                <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal"
+            <div class="col-5">
+                <button type="button" class="notas btn mt-2" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">
                     Crear Nota
                 </button>
@@ -32,19 +30,18 @@
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content text-white">
-                            <div class="modal-body bg-dark">
+                            <div class="modal-body">
                                 <form id="form">
                                     <h5 class="modal-title" id="exampleModalLabel">Titulo</h5>
                                     <input class="form-control" type="text" placeholder="Agregar Titulo"
-                                        aria-label="default input example" id="boton_titulo">
+                                        aria-label="default input example" id="boton_titulo" required>
                                     <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Example
-                                            textarea</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                            placeholder="Agregar Contenido"></textarea>
+                                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                        <textarea class="form-control box" id="exampleFormControlTextarea1" rows="3"
+                                            placeholder="Agregar Contenido" required></textarea>
                                     </div>
                                     <h6 class="text-white">Categorias</h6>
-                                    <select class="form-select" aria-label="Default select example" id="categoria">
+                                    <select class="form-select box" aria-label="Default select example" id="categoria">
                                         <option selected>y eña</option>
                                         <option>Trabajo</option>
                                         <option>Academico</option>
@@ -65,16 +62,11 @@
             </div>
         </div>
     </div>
-
-
-    <div class="container mt-5 text-center listado">
+    <div class="p-3 text-center listado">
         <div class="row contenedor">
-           
+
         </div>
     </div>
-
-
-
 
 
     <!-- Optional JavaScript; choose one of the two! -->

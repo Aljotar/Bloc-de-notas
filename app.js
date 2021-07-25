@@ -20,6 +20,7 @@ function tomarDatos() {
     notas.push(nuevaNota);
     localStorage.setItem("notas", JSON.stringify(notas));
     form.reset();
+
 }
 const cancelar = document.getElementById("btn-cancelar");
 cancelar.addEventListener('click', resetModal);
@@ -33,23 +34,34 @@ function mostrarNotas() {
         for (let i = 0; i < notas.length; i++) {
             const nota = notas[i];
             const div = `
-            <div class="col-6">
-            <p>${nota.id}
-            <p>${nota.titulo}
-            <p>${nota.contenido}
+            <div class="col-12">
+                <p>
+                <p data-bs-toggle="collapse" href="#collapseExample${i}" role="button" aria-expanded="false" aria-controls="collapseExample">
+                ${nota.titulo}</p>
+                </a>
+                </p>
+                <div class="collapse" id="collapseExample${i}">
+                    <div class="card card-body bg-dark">
+                        <p>${nota.categoria}</p>
+                        <p class="">${nota.contenido}</p>
+                        </div>
+                        <div class="card-body bg-dark">
+                            <button type="button" class="btn btn-success mt-3">Editar</button>
+                            <button type="button" class="btn btn-danger mt-3">Eliminar</button>
+                        </div>
+                    </div>
             </div>
-            <div class="col-6">
-            <button type="button" class="btn btn-success">Editar</button>
-            <button type="button" class="btn btn-danger">Eliminar</button>
-            </div>
+   
         `;
             contenido.push(div);
         }
         contenedor.innerHTML = contenido.join("");
-
     }
     mostrar();
 }
+
+console.log(notas[2]["contenido"].length);
+
 
 
 
