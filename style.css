@@ -12,6 +12,10 @@ body {
     font-weight: 900;
     box-shadow: 1px 1px 5px rgb(214, 123, 63);
 }
+.notas:hover {
+    color: white;
+    background:rgba(0, 0, 0, 0.4); ;
+}
 .modal-footer {
     justify-content: space-between;
     border: none;
@@ -40,6 +44,7 @@ body {
 }
 .card-body{
     border: none;
+    background: rgba(255, 142, 4, 0.3);
 }
 .modal-content{
     box-shadow: 1px 1px 5px black;
@@ -49,5 +54,38 @@ body {
 }
 .box{
     box-shadow: 1px 1px 5px;
+}
+.contenido{
+    border: 0.5px solid black;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: start;
+}
+.contenido:hover{
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo:hover{
+    color: chocolate;
+    box-shadow: 1px 1px 6px black;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+.categoria{
+    font-size: 16px;
+    font-weight: 600;
+}
+.categoria:hover{
+    color: coral;
+    background: cornsilk;
+    border: 0.5px solid black;
+    border-radius: 10px;
 }
 
