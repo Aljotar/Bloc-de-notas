@@ -27,58 +27,49 @@
                     data-bs-target="#exampleModal">
                     Crear Nota
                 </button>
-
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
-                        <form>
-                            <div class="modal-content">
-                                <div class="modal-header bg-dark text-white list-group">
+                        <div class="modal-content text-white">
+                            <div class="modal-body bg-dark">
+                                <form id="form">
                                     <h5 class="modal-title" id="exampleModalLabel">Titulo</h5>
                                     <input class="form-control" type="text" placeholder="Agregar Titulo"
                                         aria-label="default input example" id="boton_titulo">
-                                </div>
-                                <div class="modal-body bg-dark">
                                     <div class="mb-3">
                                         <label for="exampleFormControlTextarea1" class="form-label">Example
                                             textarea</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                                             placeholder="Agregar Contenido"></textarea>
                                     </div>
+                                    <h6 class="text-white">Categorias</h6>
                                     <select class="form-select" aria-label="Default select example" id="categoria">
-                                        <option selected>Categoria</option>
+                                        <option selected>y eña</option>
                                         <option>Trabajo</option>
                                         <option>Academico</option>
                                         <option>Esparcimiento</option>
                                         <option>Otros</option>
                                     </select>
-                                </div>
-                                <div class="modal-footer d-flex bg-dark">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Cancelar</button>
-                                    <button type="button" class="btn btn-primary" id="btn"
+                                </form>
+                                <form class="modal-footer d-flex">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                                        id="btn-cancelar">Cancelar</button>
+                                    <button type="submit" class="btn btn-primary" id="btn"
                                         data-bs-dismiss="modal">Crear</button>
-                                </div>
+                                </form>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
 
     <div class="container mt-5 text-center listado">
-        <div class="row">
-            <div class="col-6">
-
-            </div>
-            <div class="col-6">
-                <button type="button" class="btn btn-success">Editar</button>
-                <button type="button" class="btn btn-danger">Eliminar</button>
-            </div>
+        <div class="row contenedor">
+           
         </div>
     </div>
 

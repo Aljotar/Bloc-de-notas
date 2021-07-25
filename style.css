@@ -11,4 +11,8 @@ body{
 }
 .modal-footer{
     justify-content: space-between;
+    border: none;
+}
+.modal-body{
+    border: none;
 }
