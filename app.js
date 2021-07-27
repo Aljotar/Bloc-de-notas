@@ -113,6 +113,7 @@ function editar(id) {
     const notasJson = JSON.stringify(notas);
     localStorage.setItem('notas', notasJson);
 }
+//FIN
 
 
 
