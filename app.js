@@ -45,7 +45,7 @@ function mostrar() {
                 <div class="card card-body">
                 <div class="container">
                      <div class="row">
-                        <div class="col-2 m-5 p-5 categoria">
+                        <div class="col-2 categoria">
                             <p>${nota.categoria}</p>
                         </div>
                         <div class="col-5 contenido m-5">

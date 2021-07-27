@@ -87,11 +87,15 @@ body {
     color: black;
     font-size: 16px;
     font-weight: 900;
+    border-bottom: 5px groove #fa6464;
+    margin: 48px 48px 100px 48px;
+    padding: 10px 10px 0px 10px;
+    
+
 }
 .categoria:hover{
     color: rgb(54, 54, 54);
-    background: rgb(251, 226, 172);
-    border: 0.5px solid black;
+    background: rgb(255, 203, 155);
     border-radius: 10px;
 }
 
