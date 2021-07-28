@@ -49,7 +49,8 @@ body {
 }
 .card-body{
     border: none;
-    background: rgba(253, 245, 234, 0.8);
+    background: rgba(255, 255, 255, 0.9);
+    height: 720px;
 }
 .modal-content{
     box-shadow: 1px 1px 5px black;
@@ -60,15 +61,18 @@ body {
 .box{
     box-shadow: 1px 1px 5px;
 }
+.contenedor_padre{
+    height: 720px;
+}
 .contenido{
     border: 0.5px solid black;
-    background: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     text-align: start;
+    border: none;
+    height: 720px;
 }
-.contenido:hover{
-    color: black;
-    background: rgba(255, 255, 255, 0.8);
+.contenido_card{
+    line-height: 30px;
 }
 
 .titulo{
@@ -88,7 +92,7 @@ body {
     font-size: 16px;
     font-weight: 900;
     border-bottom: 5px groove #fa6464;
-    margin: 48px 48px 100px 48px;
+    margin: 48px 48px 900px 48px;
     padding: 10px 10px 0px 10px;
     
 
